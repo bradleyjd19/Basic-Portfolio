@@ -1,0 +1,204 @@
+/* Height used for sticky footer */
+html,
+body {
+  height: 100%;
+}
+/* Formats header for entire width of page */
+header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #cccccc;
+}
+
+/* Flex display and direction used for sticky footer */
+/* Sets display background as an image for entire page */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  background-image: url("/Basic-Portfolio/Assets/Images/ticks.png");
+}
+
+/* Name block character formatting */
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+/* Determines the width limits of the name block and page links on the header */
+.head {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Name block box formatting and positioning */
+.name {
+  background-color: #4aaaa5;
+  height: 78px;
+  width: 300px;
+  float: left;
+  text-align: center;
+}
+
+/* Page links positioning */
+.links {
+  float: right;
+  text-align: center;
+}
+
+/* Page link boxes */
+#about,
+#portfolio,
+#contact {
+  padding: 3px 20px;
+  position: relative;
+  top: 30px;
+  right: 0px;
+}
+
+/* Floating border */
+#about {
+  border-right: 1px solid #cccccc;
+}
+
+/* Floating border */
+#portfolio {
+  border-right: 1px solid #cccccc;
+}
+
+/* Formats content box with secondary header within each page */
+.container {
+  background-color: #ffffff;
+  width: 960px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border: 1px solid #cccccc;
+  padding-bottom: 20px;
+  flex: 1 0 auto;
+}
+
+/* Formats the content only */
+.content {
+  width: 930px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Formats the secondary header only */
+h2 {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-bottom: 2px solid #cccccc;
+}
+
+/* Formats and positions the profile image */
+#profile {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  height: 190px;
+  width: 190px;
+}
+
+/* Formats paragraph text and spacing */
+p {
+  font-size: 16px;
+  line-height: 2em;
+}
+
+/* Formats footer */
+/* Flex-shrink used for sticky footer */
+footer {
+  flex-shrink: 0;
+  background-color: #666666;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  width: 100%;
+  color: #cccccc;
+  font-size: 14px;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+}
+
+/* Spacing for box containing all project images */
+.projects {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+/* Spacing and sizing for each project image */
+#hangman,
+#rpg,
+#trivia,
+#widget,
+#rock {
+  margin-right: 50px;
+  margin-bottom: 50px;
+  height: 250px;
+  width: 250px;
+}
+
+/* Positioning for each project image, allows text box overlay */
+.hangman,
+.rpg,
+.trivia,
+.widget,
+.rock {
+  position: relative;
+  float: left;
+}
+
+/* Positioning and formatting for text box on project images */
+h4 {
+  position: absolute;
+  left: 0px;
+  bottom: 50px;
+  height: 50px;
+  width: 250px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Spacing for submission form */
+form {
+  line-height: 2em;
+}
+
+/* Extends input boxes for length of container */
+input {
+  width: 100%
+}
+
+/* Modifies message text box */
+#message {
+  width: 100%;
+  height: 150px;
+  line-height: 1.5em;
+}
+
+/* Modifies submit button */
+#submit {
+  height: 40px;
+  width: 120px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5em;
+  border: 1px solid #4aaaa5;
+}
