@@ -1,77 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>    
+  <meta charset='UTF-8'>
+  <meta name="viewpoint" content="width=device-width,initial-scale=1">
+  <title>About Me | Joshua Bradley</title>
+  <!-- Linking CSS -->
+  <link rel='stylesheet' type='text/css' href='./Assets/CSS/style.css'> 
+  <!-- Favicon -->
+  <link rel="icon" type="favicon/png" href="./AssetsImages/favicon.png">
+</head>
 
-    <meta charset='UTF-8'>
-    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+<body>
 
-    <title>Portfolio</title>
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
-    <!-- Linking CSS -->
-    <link rel='stylesheet' type='text/css' href='./Assets/CSS/style.css'>
-
-    <!-- Favicon -->
-    <link rel="icon" type="favicon/png" href="./Assets/Images/favicon.png">
-
-  </head>
-
-    <!-- Header tag encompasses the header over the full width of the page -->
-    <header>
-
-      <!-- Head class encompasses the name block and page links portions of the header-->
-      <div class="head">
-        <!-- Name class encompasses the name block -->
-        <div class="name">
-          <h1>Joshua Bradley</h1>
-        </div>
-        <!-- Links class encompasses the page links -->
-        <div class="links">
-          <span id="about"><a href="./index.html">About</a></span>
-          <span id="portfolio"><a href="./portfolio.html">Portfolio</a></span>
-          <span id="contact"><a href="./contact.html">Contact</a></span>
-        </div>
-      </div>
-        
-    </header>
-
-  <!-- Body tag encompasses all content below the header -->
-  <body>
-
-    <!-- Container class encompasses the box containing the secondary header and the page content, in this case the project images/text boxes -->
+  <header id="head">
     <div class="container">
-      <h2>Portfolio</h2>
-        <!-- Projects class allows all images/text boxes to be formatted as one block -->
-        <div class="projects">
-          <!-- Each class encompasses the image and text box, allowing for overlay of text box on image -->
-          <div class="hangman">
-            <h4>Hangman</h4>
-            <!-- Separate id's allow for modifications to each image individually (specifically spacing and positioning) -->
-            <a href="#"><img id="hangman" src="./Assets/Images/hangman.jpg" alt="Hangman"></a>
-          </div>
-          <div class="rpg">
-            <h4>RPG</h4>
-            <a href="#"><img id="rpg" src="./Assets/Images/rpg.jpg" alt="RPG"></a>
-          </div>
-          <div class="trivia">
-            <h4>Trivia</h4>
-            <a href="#"><img id="trivia" src="./Assets/Images/trivia.jpg" alt="Trivia"></a>
-          </div>
-          <div class="widget">
-            <h4>Info Widget</h4>
-            <a href="#"><img id="widget" src="./Assets/Images/widget.jpg" alt="Info Widget"></a>
-          </div>
-          <div class="rock">
-            <h4>Rock Paper Scissors</h4>
-            <a href="#"><img id="rock" src="./Assets/Images/rock.jpg" alt="Rock Paper Scissors"></a>
-          </div>
-        </div>
+      <h1 id="logo">Joshua Bradley</h1>
+      <nav>
+        <a href="./index.html">About</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+
+      <h2>Portfolio</h2>
+        
+        <div class="projects">
+          <a href="#"><img id="hangman" src="./Assets/Images/hangman.jpg" alt="Hangman"></a>
+          <h3>Hangman</h3>
+        </div>
+
+        <div class="projects">
+          <a href="#"><img id="rpg" src="./Assets/Images/rpg.jpg" alt="RPG"></a>
+          <h3>RPG</h3>
+        </div>
+
+        <div class="projects">
+          <a href="#"><img id="trivia" src="./Assets/Images/trivia.jpg" alt="Trivia"></a>
+          <h3>Trivia</h3>
+        </div>
+
+        <div class="projects">
+          <a href="#"><img id="widget" src="./Assets/Images/widget.jpg" alt="Info Widget"></a>
+          <h3>Info Widget</h3>
+        </div>
+
+        <div class="projects">
+          <a href="#"><img id="rock" src="./Assets/Images/rock.jpg" alt="Rock Paper Scissors"></a>        
+          <h3>Rock Paper Scissors</h3>
+        </div>
+         
+    </section>
+  </div>
       
-    <footer>Copyright&copy;JDB Design</footer>
-  
-  </body>
+  <footer>
+    <div class="container">
+      Copyright&copy;JDB Design
+    </div>
+  </footer>
+    
+      
+</body>
   
 </html>
